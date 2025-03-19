@@ -63,10 +63,6 @@ do
     {
         Console.WriteLine("Invalid input type");
     }
-    catch (NullReferenceException)
-    {
-        Console.WriteLine("Input cannot be empty");
-    }
     catch (Exception e)
     {
         Console.WriteLine($"Error: {e}");
